@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-10-28T20:20:35.460646+00:00",
+  "status": "LOCAL_PASS_CLEAN_LINUX_CI_PENDING",
+  "criteria": {
+    "data_provenance": "PASS: 102 exact source objects and manifest byte hashes; no individual records",
+    "selection_and_math": "PASS: independent reconstruction of all390 cases,3150 flags,14 validation objectives,27 test metric rows and2000 block draws",
+    "replay": "PASS: separate temporary-directory rebuild; 1e-7 absolute/1e-9 relative tolerance",
+    "contracts": "PASS:7/7",
+    "presentation": "PASS after encoding/label-layout corrections; three actual figures and six private PDF pages inspected",
+    "privacy": "PASS bounded intended-file scan and source inspection; private manuscripts excluded",
+    "operational_budget": "FAILED ON TEST:2/30 unmodified months exceed5%; a reported research result, not release evidence failure",
+    "novelty": "Scoped contribution only; no exhaustive novelty/global optimum/real impact claim"
+  },
+  "grades": {
+    "correctness": 4,
+    "reproducibility_local": 4,
+    "decision_clarity": 4,
+    "presentation": 4,
+    "privacy": 4,
+    "clean_linux_ci": "unknown"
+  },
+  "changes": "Preserve exact Git source bytes; disclose test budget failure; fix overlapping labels and encoding before release",
+  "review_round": 2,
+  "review_budget": "Default3rounds/45active review minutes/60review calls; source execution separate. Exact precompaction workload proxies unavailable; no quota estimate inferred. Final remote replay is remaining release gate.",
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "shared_account": true,
+    "window_minutes": 10080,
+    "used_percent": 33,
+    "remaining_percent": 67,
+    "resets_at": 1793782197,
+    "other_windows": "unavailable"
+  },
+  "stop_reason": "Continue publication verification; do not count study complete yet"
+}

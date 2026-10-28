@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "test_cases_reconstructed": 210,
+  "flags_checked": 630,
+  "metric_rows_checked": 27,
+  "quarter_blocks_checked": 10,
+  "bootstrap_draws_checked": 2000,
+  "scope": "Exhaustive synthetic mutation, SQL contract, independent monitor flag, rational decision/MSE and metric/block reconstruction"
+}

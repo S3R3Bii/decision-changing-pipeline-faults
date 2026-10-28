@@ -1,9 +1,12 @@
 from pathlib import Path
 import copy
+import csv
 import sys
+import tempfile
 import unittest
+from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from experiment import PRODUCTS,make_batch,mutate,structural,reserve,flag,write_csv,OUT
+from experiment import PRODUCTS,make_batch,mutate,structural,reserve,flag,write_csv
 
 class Contracts(unittest.TestCase):
     def setUp(self):
@@ -28,5 +31,12 @@ class Contracts(unittest.TestCase):
 
     def test_deterministic_equal_count_ties(self):
         equal={p:30 for p in PRODUCTS};batch=mutate(equal,equal,'fixture','duplicate_largest');self.assertEqual(batch['rows'][-1]['product'],min(PRODUCTS))
+
+    def test_trial_export_preserves_optional_parameters(self):
+        with tempfile.TemporaryDirectory() as folder:
+            with patch('experiment.OUT',Path(folder)):
+                write_csv('trials.csv',[{'name':'baseline'},{'name':'numeric','window':6,'cutoff':8}])
+            with open(Path(folder)/'trials.csv',newline='') as handle:rows=list(csv.DictReader(handle))
+            self.assertEqual(rows[0]['window'],'');self.assertEqual(rows[1]['window'],'6');self.assertEqual(rows[1]['cutoff'],'8')
 
 if __name__=='__main__':unittest.main()

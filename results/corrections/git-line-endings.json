@@ -1,0 +1,8 @@
+{
+  "stage": "Pre-publication source packaging",
+  "finding": "Git automatic line-ending normalization changed all102 source blobs and their manifest bytes, despite identical parsed JSON. Working source hashes and all numerical checks passed.",
+  "repair": "Add data/results byte-preserving Git attributes and re-stage original working source bytes.",
+  "evidence": "Every original Git source object and corrected working source parses to the identical JSON value; no counts, scenarios, monitor parameters, policy or result changed.",
+  "source_files_checked": 102,
+  "analysis_scope_unchanged": true
+}

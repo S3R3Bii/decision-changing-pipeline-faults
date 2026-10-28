@@ -1,0 +1,410 @@
+[
+  {
+    "file": "data/monthly-aggregates/2018-01.json",
+    "sha256": "64b19548063308389c570ef3aacd1d1ef3b3b8910f3d840ff59b819a3891bbce"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-02.json",
+    "sha256": "58c6ebd962372b11a7f7a3a2a21135750e31f5cf6825af72edee784af03356c1"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-03.json",
+    "sha256": "21262d0f58d008a15033805b0b8c5b42ad669d2bb064e89f59fa81618886d3af"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-04.json",
+    "sha256": "6fb52c8cd255b2429f4ad22d9b99776c3eda23ae1353ca0661caf8832d11b7b6"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-05.json",
+    "sha256": "c14df0a213ca6783c7056eef7c60a75e8944b7c61240f19bfc119737d75d212f"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-06.json",
+    "sha256": "fe70072cd38d01acc4bcff61375bd068b8070be017ad1f0b04b0304f4b7f6db6"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-07.json",
+    "sha256": "25ad8ad3e74df70654f5e6ac3e13b63935d2647294b6d64debcc410b680c089d"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-08.json",
+    "sha256": "a76d59537126a0bc8ce24c5cfc5b42545d5c2cf2c4af3c0e8973da10e12c4f22"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-09.json",
+    "sha256": "fce60c15ea10d96d73b360ff902e8c1cd067ad98eb7497ebfb86347c1716a2de"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-10.json",
+    "sha256": "8f75b803d3999d6f076e31d9ae27850e904e7505bb8c88e20bbb29d9faf318a0"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-11.json",
+    "sha256": "2034ce2ddc70ca78cd4e758624409abd878ab57c720ddd5004ee4be41ef5dbb7"
+  },
+  {
+    "file": "data/monthly-aggregates/2018-12.json",
+    "sha256": "daf7e7a6a45e753deeaab25fe2e1bdfe7ed88db125817954df6b3c3a55f391e6"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-01.json",
+    "sha256": "d8a176fb8dd68fc9c511bede582c824a374f44a5874c03ece109288849d24f1a"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-02.json",
+    "sha256": "08c87e952999f0d10c1d889988948b64b77b617a522156bf33d4e319d5f3322b"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-03.json",
+    "sha256": "2e1740980e221e4fd13cf0558b2ee1d5b11317991404eb95aab33dc02183aa34"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-04.json",
+    "sha256": "ccb847716679e88684c23ff822db5ed8e869e66bae7c8b1d857aaa2dd6c6d54a"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-05.json",
+    "sha256": "2960e2a48eaef9a19a708ecb8beaf932ffee8d981454e7dbefdf78d229624da2"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-06.json",
+    "sha256": "e4d977997cdb790cb3b7830a413a36b2b7dbaf1024874464420840cf9348987b"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-07.json",
+    "sha256": "4a2a8cd40187c2475ab885ea7b02968f7e375c1018b96864203c937bc8baecf1"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-08.json",
+    "sha256": "874023f6705346c9966cf3ffde28fb917b09946d00372e0b7485a4a8aba9253b"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-09.json",
+    "sha256": "3d633b708a2182871c01dc392f58e86a07eaa192a5faf0a269baa4989d836f04"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-10.json",
+    "sha256": "4b24e741fccd67f1d8a386d18bd3bae9cf50d8ee4da6d7e97d2bc377fd609fac"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-11.json",
+    "sha256": "d91e9a876df85bfb0840e9d47adecae3abae60cddece5321ac2bbcc5f4f8b2ac"
+  },
+  {
+    "file": "data/monthly-aggregates/2019-12.json",
+    "sha256": "4833fbe8ece09cc6ce17a21dced4a1f3a761149c1df19cfeaf2d6b4ab641e23b"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-01.json",
+    "sha256": "dbf33669e552f68e416f646522578a1515528591616ee329726b6caaa6c9e7a0"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-02.json",
+    "sha256": "80210e0ad15ee9dab2621fc5109ded85fe2546c58d14dbcc39ddeeebbdde78de"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-03.json",
+    "sha256": "a3460ac84e178d238ae51605c0fb832498ea167362c4d9da5a3ff41550fab362"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-04.json",
+    "sha256": "34072f2d7c2aa8f925ff01714cad5c2a7853d23c53c3a95ca4e5b02c431a7c62"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-05.json",
+    "sha256": "dcfc78382aa0a0380f0f6bfa89f6136bbaefc8415bedf75aea50fe33265055d7"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-06.json",
+    "sha256": "0ce7f43dcc2387b64b50d9964c806f804f2a622079762918ae5569469615800e"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-07.json",
+    "sha256": "5e8ce9c8076d8247ce5135e86d22a6071ca580f35711126147cfd9edc7d757bb"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-08.json",
+    "sha256": "307927ea61362367c24b3aa81336661fa227740e77b5c0c0cc9f7c9c5fba0e73"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-09.json",
+    "sha256": "3428b5378d98c195356a8bf27f315496c895842eca7f5002aa8c495ee4f6c7b3"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-10.json",
+    "sha256": "cdf261401b382ed53399ce0950222f878f796558cff4eb1dd9e611ea046cdbfd"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-11.json",
+    "sha256": "9ed8f97750d95e9de141c23d5feecff82244f39beba3987368567302306f0ed7"
+  },
+  {
+    "file": "data/monthly-aggregates/2020-12.json",
+    "sha256": "4931145e13f706344ff9a3c2a96a4082a272638653590608a917ae63a37c43ba"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-01.json",
+    "sha256": "11cb0fe71bb41f085bbf41cb2e514065764d20d5a9f561ebfec969a32fafaa19"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-02.json",
+    "sha256": "6b8f015d0afa45bdfa930e447828a4436c2f3eff6568583d1baca97e753affeb"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-03.json",
+    "sha256": "fa33ddb61f623a9dc70f4630fe0ad6236a91ec0feaf92a7eb49d4ee1328ae62a"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-04.json",
+    "sha256": "39a6ea45c7df094b405bc97c36cd8603379b5c445e3de2efa0fb7882d03e960b"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-05.json",
+    "sha256": "6bb557c5911af998d28b75b8b0702c288e9e352fe5605554aabfb95188cb2094"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-06.json",
+    "sha256": "89188b09a0a001b41f45ebee5c527d722c49d734e7f9b68a76d74d2df5f5792d"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-07.json",
+    "sha256": "ff964c12e72a1fe77260b0b3236f53e0c5c15630ce97d9c134c3a3a72b61a8f9"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-08.json",
+    "sha256": "fbe65698a001a510cfa919dbe52d7c37f175fb78961ba4ee9933cad39b7a227c"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-09.json",
+    "sha256": "19a50cacb38a7e82dd488613231c6ae51e54a125884df34e64d6b5638c53490c"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-10.json",
+    "sha256": "0b68bc4e75d1b4a608e515a957b6f2d1b66dea098677637ff59d886bcff358bb"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-11.json",
+    "sha256": "8fc71d8c6408de803d3f026aedcae3dbfbb383a89bd59e8133540a4ef46c72f9"
+  },
+  {
+    "file": "data/monthly-aggregates/2021-12.json",
+    "sha256": "fcfe9ab5e147c72711189ba8c425c7bc5e237e01ba02f367de3cc16f5d4f218a"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-01.json",
+    "sha256": "4dede9d23f9cd191050403297d03448d3ac0b0de25cf4497b22058e96e38e110"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-02.json",
+    "sha256": "5af1be3f76f36b08dd6058291e1ed99ae1c25dc92fe31e9a9b49b96ca6879e4f"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-03.json",
+    "sha256": "0edeb9a244a2fe3a5e20af9a969bb0370e93168144c0386d4b907693f391c130"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-04.json",
+    "sha256": "b467d9dc311a24f05247bb9909062638e094c29282fd93c53722b76499c822df"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-05.json",
+    "sha256": "dbafaf46797863782188abad008feb43872a532ebf114dc0fb33c5344afb3ef0"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-06.json",
+    "sha256": "c0356e8d8c307e6f1767d0bbaf419572ad155e4bbf6c660686c3d904c60bfabe"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-07.json",
+    "sha256": "2ce72c59c7113c2cac1c2e982f02be3f5af41855be0cfd10ee082e4c6ac1ad82"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-08.json",
+    "sha256": "b307a2576a31b7f576767dc3d01b6c189daeaf6559cf6280a182565999b4368b"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-09.json",
+    "sha256": "c00daab9fde7a92172e06026d56ce80eb96e6fbc75a2ffa84a6d2adb8aef7972"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-10.json",
+    "sha256": "18f8ce4685a00275e2dda75f03e775db1550014ca289fded3642e737929955d2"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-11.json",
+    "sha256": "7aaf3c7f94f998c786a53e53f8d610c7fc4b469215b32691d4705a0c7b8b726c"
+  },
+  {
+    "file": "data/monthly-aggregates/2022-12.json",
+    "sha256": "afeda84b05c8c6a322406bddae5db850439f6ff4d0faa9f6944ab36b4f074b91"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-01.json",
+    "sha256": "59770c986bd52e8b98a78204eb9f417339eaec5e63f60232693cf9a96609b7ee"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-02.json",
+    "sha256": "9a39486ab84c6acb6ec155b862be85b9b560cb6156d7c608dffaba319d44c190"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-03.json",
+    "sha256": "95f7d903db2a18c4f0f3d57b29786ff672540a058d2ca36859e36b6f76bd1b33"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-04.json",
+    "sha256": "7a3ba115c444a86737b2bf057dcde161aa0e6a9063022bb97523fb54fe29db57"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-05.json",
+    "sha256": "9fe3449f2d1ab9c79d283ff4cb37169efe4bdedb9a4991a4913071d6ff33ec78"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-06.json",
+    "sha256": "d4307af65d609ff81c01f17234be3fc172dcb0c360ce927ce296a902856b5a08"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-07.json",
+    "sha256": "7eba3913b7e31d184d5e1d8daae3b4f53b8f2c09203bad6a537c7fe5c2f2cb52"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-08.json",
+    "sha256": "e68d556c2167d05e7f8bb82a8b056843fa78a1a055ac785e79d71f2214ff90bf"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-09.json",
+    "sha256": "7f5b33a4c5d0b53e2fdb5be3868611302b95fd9f830b71111b512eea5892519b"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-10.json",
+    "sha256": "1e407ca89b82fe09aaae4049727f1fdf1a8477f67061ba9fa5d2c105604030df"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-11.json",
+    "sha256": "30f705d0dffaed1d35d3168190fb7de9d015394700ceba2834a2986fd1fae64c"
+  },
+  {
+    "file": "data/monthly-aggregates/2023-12.json",
+    "sha256": "b290addf2b00b343d637e6434ceb4bbaab24b5abfc9310cf6bbd19c4eddf50f8"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-01.json",
+    "sha256": "fd2a48bbba166d0c08e01c8d5d84a4c362f10254c8a1b8b36fb7ca7e7f071229"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-02.json",
+    "sha256": "c1dadcf198fc332799172860546bd0359a3e9fea647be65eefd5f1e2d3537736"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-03.json",
+    "sha256": "ba27f3638b71e2dd65bc35a4444b1170ce3c787652274d955941bdd86b07dd12"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-04.json",
+    "sha256": "e1aee05c6a0c093c43f1c83017824c4b0c5c34530d9ed6b476402f9274ea3f37"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-05.json",
+    "sha256": "7ecc7b4fbbce60323014271cabbb08440a2062b84617204c9d883216b9588900"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-06.json",
+    "sha256": "f79ad1d2a18fb87d13098ed436eecb46e1c136c7917f582c367f72f151cce68d"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-07.json",
+    "sha256": "166d41013f634baa8f07110273228de1758073642215c4ea54a52784e55a8271"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-08.json",
+    "sha256": "d1129baae49422e1032401ab8155a02f8f316815598c34f09b850d39da034242"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-09.json",
+    "sha256": "6652e6702934f1e8a31e976febcfbb7c2a740b5291e529161a64eaf1818bdc21"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-10.json",
+    "sha256": "ff3463408b41a008c250e3097a723d073009e4641ebccc7b952bbed763198fa3"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-11.json",
+    "sha256": "6fcf80bef7f30511f4a4af14f38f3d7c2d235aff060c788ae99d7b6d203e0ab6"
+  },
+  {
+    "file": "data/monthly-aggregates/2024-12.json",
+    "sha256": "a6f4b3c8a1f2ca2944aad44b2aef00df151502efd92b88284a5b1775d806620c"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-01.json",
+    "sha256": "1f6c037e8538dc6f8f3f9c60bf5294e70b68fe007bcda76789cc644a2e052ec5"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-02.json",
+    "sha256": "3ef1ed54719011ff5529851099faf4cd79e4be1fdf13ca9b2a7823b52cae1415"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-03.json",
+    "sha256": "f961089d32087d5e897a8b8f9c8763e0865a093e1d4cc42c23a570a9cf729cff"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-04.json",
+    "sha256": "2d13b8de6064fa893e7af9177be6e54835a9960d6c95cbfaaa0704eab4db2f2f"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-05.json",
+    "sha256": "805f091c9bfa62848c5d1f76abf45ac589995183308e6e64c059a8f1af082498"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-06.json",
+    "sha256": "35e1a5e26195daeb477656223f9f0f8d645cf81bf57e28f0e0308dc15a536079"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-07.json",
+    "sha256": "44d610704b55c12877fb431b5508c4d8b6a7ce2c2edc5b3d171f26161419f903"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-08.json",
+    "sha256": "adb5d3152eeb794bb89d434ca18127419699f7fd000ba771635b81b5cd28a26c"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-09.json",
+    "sha256": "7d87c1d62383cf5a6e22df020cfa1879d950ae5bc03e80b9b66970edd27b80c3"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-10.json",
+    "sha256": "14204136ff342087c120ed7e0f4a02f3db53b998fd4f6b3a7ca73c62b7a59017"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-11.json",
+    "sha256": "7fad29d2e6c957eaefc550bf99284c992bfbb2490bfe2912d0fbacb4b9afa7cd"
+  },
+  {
+    "file": "data/monthly-aggregates/2025-12.json",
+    "sha256": "19840813a0e618d6433b1aadf950666deb3d11a46e2f7b3d88b2703873333fdf"
+  },
+  {
+    "file": "data/monthly-aggregates/2026-01.json",
+    "sha256": "839c1fbecae0ef3b4ff273022e0d37aed8890614319e766c3788e6107367bc88"
+  },
+  {
+    "file": "data/monthly-aggregates/2026-02.json",
+    "sha256": "4221667af9a32797c4d7aa00fcd99b8f5312656babe2fb227dbbc1faf9ac9941"
+  },
+  {
+    "file": "data/monthly-aggregates/2026-03.json",
+    "sha256": "dc1f6f6e91cb0784b42776c0d0f8e424efea69628e494370565a405b9f7ebe78"
+  },
+  {
+    "file": "data/monthly-aggregates/2026-04.json",
+    "sha256": "b3c13d36a04ba2d5d4cf9efa1b5e827051eca523e15a3395a8bcaa27fa2827f9"
+  },
+  {
+    "file": "data/monthly-aggregates/2026-05.json",
+    "sha256": "3a7d6d8438ef8264138f7f28bc198fbd0c5449ff11a2cce556bae2bcec5d0feb"
+  },
+  {
+    "file": "data/monthly-aggregates/2026-06.json",
+    "sha256": "8a09389873c9cf3e36cded75b2f0923e4f993c08a7d4f685d168706352483377"
+  }
+]

@@ -1,0 +1,37 @@
+# Pipeline checks judged by the decision they protect
+
+Declared 28 October 2026 before constructing or scoring this study's synthetic fault cases. The base public panel was previously used in a separate capacity-forecasting study; this is a new fault/monitor experiment, not an independent new source dataset or original-release evaluation.
+
+## Decision and source boundary
+
+Which integrity checks detect a corrupted monthly feed before it changes a category-level reserve allocation, and how much review burden do statistical checks add? The allocation is an explicit analytical proxy, not an employer's staffing plan. The fault cases are synthetic; historical complaint volumes are measured public aggregates. No actual operational savings, production incidents or required staffing capacity are observed.
+
+Use the exact CFPB monthly aggregate snapshot, January2018–June2026, already source-reconciled in the separate complaint-capacity repository at commit888c9d819cec605b3839e223bad7492846a00fa0. Retain original source URLs/timestamps/hashes and its independently retrieved whole-period reconciliation receipt. Copy only public aggregate counts and provenance, with no complaint-level records or narratives. Six consistently named categories are Checking/savings, Debt collection, Money transfers, Mortgage, Student loan and Vehicle loan/lease; preserve full source names in data. Every selected category must occur in all102 months. Other categories remain in source snapshots for exact total reconciliation but are outside this controlled feed.
+
+This bounded benchmark executes on the verified CFPB panel. The proposal's TLC/EIA extensions remain unexecuted and are not claimed. Source historical counts can reflect reporting delays or revisions. No original publication vintage or known real pipeline incident is inferred. Reusing the public panel supplies a controlled test fixture, not an additional independent field trial.
+
+## Controlled decision and fault mechanisms
+
+The unguarded reference policy reserves, for each category, the ceiling of its current and previous two observed monthly counts divided by three. Integers implement the ceiling exactly. The corrupt policy uses the changed current batch but unchanged earlier two months. Duplicate category rows are summed and missing rows are treated as zero in this deliberately unguarded policy; these are failure semantics, not a recommended production implementation.
+
+The feed header carries the sum of the six selected counts and the expected current month. Structural checks test exactly six unique expected categories, current period, nonnegative integer values and payload/header reconciliation. A replay check compares the entire current category/count vector with the immediately previous unmodified vector. Genuine unchanged vectors can produce review, so measure unmodified-history burden rather than presuming a false-positive rate of zero.
+
+For every validation month construct four isolated synthetic cases: duplicate the largest category row; drop the largest category row; multiply all counts and the header by two; replay the preceding month's vector under the current month and update its header. Ties for largest/smallest use the full category name. On the later test, retain those four and add two held-family cases: floor every count at half its original value with matching header; exchange the largest and smallest category counts while preserving the total. The scale and exchange cases intentionally remain structurally valid. Each case begins from the unmodified reference history; faults do not accumulate between cases.
+
+For allocation vectors a(reference) and b(corrupted), record absolute decision change D=sum|b−a|, normalized change D/sum(a), and per-category decision MSE=sum(b−a)^2/6. A change above5% is a declared materiality scenario, not an empirically estimated business threshold. Report ordinary fault recall and decision-change-weighted detection sum(D×flag)/sum(D). Also report the remaining unflagged D and MSE. These quantify divergence from the controlled policy, not error against actual staffing need.
+
+## Finite monitor selection
+
+Warm history:2018–2020; validation:2021–2023; protected synthetic-case test:2024–June2026. The underlying retrospective source periods have been inspected for other work, but these fault cases and this selector have not been scored before declaration.
+
+Fourteen candidates: structural checks alone; structural plus replay checks; and twelve structural-plus-replay-plus-numeric monitors crossing trailing windows6/12months, z cutoffs3/5/8, and minimum relative deviations0.10/0.25. Numeric checks compare each category's log(count+1) with the median of its own strictly earlier window. Scale is max(0.05,1.4826×MAD of earlier log counts). Flag if the absolute standardized deviation exceeds its cutoff AND absolute count deviation from the earlier count median divided by max(1,that median) exceeds the relative cutoff. Any category can trigger. The0.05 floor and finite settings are declared engineering choices; no optimality rationale is invented. No pretrained model or unnecessary ML estimator is introduced.
+
+Select the candidate with greatest validation decision-change-weighted detection subject to unmodified validation-month flag burden at most5%; tie by lower unmodified burden, then name. Structural-only is a fixed baseline and remains eligible. If no candidate qualifies, report the infeasible budget and do not silently relax it. Retain every candidate, parameters, runtime, per-case decision and unmodified-month flag. Freeze the selection before scoring the later synthetic cases. No post-test threshold adjustment.
+
+## Evaluation and independent evidence
+
+On test months evaluate the selected monitor and both declared structural/replay comparators, deduplicating identical names. Report metrics separately for each fault family and for known versus held-family mechanisms, with counts and materiality denominators visible. Unmodified source-month flags measure review burden, not a verified real-world false-positive rate. Any reported precision uses only the explicit synthetic case mixture and must not be presented as production precision.
+
+For the paired difference in decision-change-weighted recall versus structural-only, use2,000 calendar-quarter block bootstrap draws with seed20261028. Resample whole quarters, sum D×flag and D across sampled months/cases, then form each ratio. Test has ten quarters. Intervals are conditional on these source periods and synthetic mechanisms, not a population safety guarantee. Export all draw indices and values. Never resample six categories or repeated fault cases as independent months.
+
+Independent checks must reconstruct source counts and all synthetic mutations, every integer policy allocation, D/MSE, each detector's flag using separate scalar logic, all fourteen validation objectives/budget/selection and all later metrics/block intervals. SQL constraints independently audit the feed grain and header totals. Contracts cover future-value isolation, reference-history immutability, total-conserving label exchange, structurally valid scale faults, duplicate/missing-row accounting and deterministic tie behavior. Inspect decision-useful figures and a private LaTeX/PDF. A full fresh replay must reproduce required outputs at1e-7absolute/1e-9relative tolerance. Raw personal data, source papers, unpublished manuscript drafts and credentials never enter GitHub.

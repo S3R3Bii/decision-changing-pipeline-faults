@@ -1,0 +1,21 @@
+{
+  "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?size=1&no_aggs=false&date_received_min=2020-04-01&date_received_max=2020-04-30",
+  "retrieved_utc": "2026-10-28T16:53:29.672523+00:00",
+  "period_start_inclusive": "2020-04-01",
+  "period_end_exclusive": "2020-05-01",
+  "api_maximum_inclusive": "2020-04-30",
+  "total_complaints": 34794,
+  "product_counts": {
+    "Credit reporting, credit repair services, or other personal consumer reports": 20811,
+    "Debt collection": 4506,
+    "Credit card or prepaid card": 3171,
+    "Mortgage": 2201,
+    "Checking or savings account": 2022,
+    "Money transfer, virtual currency, or money service": 636,
+    "Vehicle loan or lease": 548,
+    "Student loan": 473,
+    "Payday loan, title loan, or personal loan": 426
+  },
+  "aggregation_error_bound": 0,
+  "omitted_bucket_count": 0
+}

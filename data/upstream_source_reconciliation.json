@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-28T16:58:56.510832+00:00",
+  "status": "PASS",
+  "monthly_total": 15256569,
+  "whole_period_total": 15256569,
+  "product_count": 14,
+  "differences": {},
+  "whole_period_source": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?size=1&no_aggs=false&date_received_min=2018-01-01&date_received_max=2026-06-30",
+  "same_day_probe_source": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?size=1&no_aggs=false&date_received_min=2025-01-01&date_received_max=2025-01-01",
+  "same_day_probe_total": 5453,
+  "conclusion": "Live API maximum is inclusive; disjoint calendar-month queries use the final day.",
+  "manifest_sha256": "28c8d0e3cf78e01a0073621662981d271f8a3aaa28a5ced5c4a1d3743f6715b5"
+}

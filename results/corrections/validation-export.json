@@ -1,0 +1,1 @@
+{"stage":"Validation export before any test evaluation","failure":"Initial CSV writer used the baseline row fields and rejected numeric-candidate window/cutoff/relative fields.","repair":"Use the ordered union of trial field names; no monitor, objective, decision policy or source change.","test_cases_evaluated":false}

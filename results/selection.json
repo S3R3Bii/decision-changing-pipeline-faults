@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-10-28T20:09:51.225765+00:00",
+  "winner": "robust_w6_z8_r0.1",
+  "baseline": "structural",
+  "budget": 0.05,
+  "candidates": 14,
+  "criterion": "Max decision-weighted fault recall subject to unmodified burden<=5%, then lower burden and name",
+  "seed": 20261028,
+  "test_cases_evaluated": false,
+  "source_kind": "Retrospective measured public history with separate synthetic fault cases"
+}

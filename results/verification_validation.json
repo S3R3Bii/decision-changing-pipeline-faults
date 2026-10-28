@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "candidate_count": 14,
+  "flags_checked": 2520,
+  "synthetic_cases_reconstructed": 180,
+  "decisions_and_mse": "Every reference/corrupted reserve vector, exact integer change, normalized change and MSE reconstructed with rational arithmetic",
+  "sql": "Every feed grain/count/period/header contract independently evaluated",
+  "selection": "Every constraint/objective and the frozen winner recomputed"
+}

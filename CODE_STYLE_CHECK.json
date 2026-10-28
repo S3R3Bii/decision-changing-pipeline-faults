@@ -1,0 +1,31 @@
+{
+  "formatter": "Black25.1.0",
+  "semantic_check": "Exact Python AST equality before and after formatting",
+  "files": [
+    {
+      "path": "src/check_reproduction.py",
+      "ast_equivalent": true,
+      "sha256": "25bfd7d9c7527651def6243b0b18286e2650f4c13e027dadd63b20755fa3fc3f"
+    },
+    {
+      "path": "src/experiment.py",
+      "ast_equivalent": true,
+      "sha256": "e5d8dcf21a9e79193f27cc406e35d3a23be18a99e849a3e8a2132622afa84e3e"
+    },
+    {
+      "path": "src/figures.py",
+      "ast_equivalent": true,
+      "sha256": "6b04a1557066a7222a9057cbe2069d12612ed8b517f8f474b8f3126195d03988"
+    },
+    {
+      "path": "src/verify.py",
+      "ast_equivalent": true,
+      "sha256": "f31d99d2b13b9e5a15d8848991d5ff83700f72a11f7035fd504171df1e0daae2"
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "ast_equivalent": true,
+      "sha256": "38fdbdd419e7bb9020b463bb67c8a7048e1030bd69a45ebb4d5f06f61c7158a4"
+    }
+  ]
+}

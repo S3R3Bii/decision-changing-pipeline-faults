@@ -1,0 +1,13 @@
+{
+  "scope": "independent-program-study",
+  "study_id": "50",
+  "formal_submission_target": false,
+  "authorization": "Owner explicitly authorized GitHub publication of these study manuscripts on 28 October 2026; formal-publication projects including Azure optimization remain excluded.",
+  "public_files": {
+    "paper/main.tex": "9a2e9a46f13097f13fa8c9eb066aab5cfcb757f2f46843e619ce3a415b9bf1fa",
+    "paper/manuscript.pdf": "bb6ab911c0ffcf4ba6beddae8f46e0f5732c6e4565211ce76db2d997f7df5849",
+    "paper/images/detection-review-tradeoff.pdf": "2300682edbe66f80bd390b76dfd9d5cdfb880e05e81ddc93cbf86e4e30c1abbc",
+    "paper/images/validation-budget-frontier.pdf": "ab8625a35688ee549b5054711a4a63109f32839b0a47060e5101b13f307931e4",
+    "paper/images/fault-family-transfer.pdf": "61945ca108c773b60a14f2cbd69b4b139b31933b384c29c1724e4d0265613cb1"
+  }
+}

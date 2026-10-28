@@ -1,18 +1,18 @@
 {
-  "timestamp_utc": "2026-10-28T20:20:38.773449+00:00",
+  "timestamp_utc": "2026-10-28T22:49:26.550030+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 141,
-  "scope": "Intended tracked/nonignored files; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
+  "files_checked": 149,
+  "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
-    ".gitattributes": "9e8ad04cd8c8407f0275f2c162e24d8483f189356a64b5e5e9a6ce70cd32a6ad",
+    ".gitattributes": "d873baa54df4ed55479f610823ca84a1a0e17c3bc40f24383e31ccb170dc1e27",
     ".github/workflows/verify.yml": "7647d696da0837c43b9d5788593267aa6fdad94d56c5657c875cbd15d05582df",
-    ".gitignore": "341c5c6756450f73e4f312aba8c618b93b4aaff7f06a7905b4574cc5a70a0fee",
-    "CODE_STYLE_CHECK.json": "9b28c3f552555c2a09a8c1c571f51a5a939dd532d6e146ee29d88fe315977bc4",
-    "MODEL_VALIDATION_STANDARD.md": "23f24302cefcf1ddf374c03236ce5ffc85943fdaece43f58826ddfe5b0edf8a4",
+    ".gitignore": "25735dacd9d543bc45cea3a072a36d2ff47e24aa71cacf7ade8a81cf06bba948",
+    "CODE_STYLE_CHECK.json": "d928d6220b700d09c7424663105575a52b9ad4e596c1183df3a9e71e85b88501",
+    "MODEL_VALIDATION_STANDARD.md": "40f9cab5117e572ed4727620e8952269c40e3118c117d6c0ea438aead3195c01",
     "PROTOCOL.md": "6f4c5734a8a566e9b5a2250d63b36666ed95e8e1109fd3c8ea82928f690f6807",
-    "README.md": "8188515140dd08e54874b5dd5048d6053b471003597ad5582b098bda9948825d",
-    "SOURCES.md": "405d3b8d92ef64e3c7b00ea5413aaeaa2de52c585d3a36deb9ec236a49a66758",
+    "README.md": "83f4a50e734225fb38fb50742a8075fd8712337d9371be7b8fab624c236e8c20",
+    "SOURCES.md": "63fc75785e3ac20363990b4f87cd6998be892f01e329a7a1639a793d80b34797",
     "data/manifest.json": "28c8d0e3cf78e01a0073621662981d271f8a3aaa28a5ced5c4a1d3743f6715b5",
     "data/monthly-aggregates/2018-01.json": "64b19548063308389c570ef3aacd1d1ef3b3b8910f3d840ff59b819a3891bbce",
     "data/monthly-aggregates/2018-02.json": "58c6ebd962372b11a7f7a3a2a21135750e31f5cf6825af72edee784af03356c1",
@@ -123,6 +123,14 @@
     "figures/fault-family-transfer.png": "1ded605592c41f364086a72a0455efeff4b604c1c10901a7f3aea7cdf72addc7",
     "figures/validation-budget-frontier.pdf": "ab8625a35688ee549b5054711a4a63109f32839b0a47060e5101b13f307931e4",
     "figures/validation-budget-frontier.png": "429e6a877b565f082806ffc95885a8dd171cfb26f0432c1083e0a789db7ca706",
+    "paper/PUBLICATION_SCOPE.json": "f355bcd99c22572606fdc25e275bde2f3248ee64d09e2e95847379107bd031d3",
+    "paper/README.md": "f6d1434988c3b1ad045fd2a160abfd2eafb8fcdb2b0b2e6784ed4210265509b1",
+    "paper/REVIEW.json": "e6a618af5662a503d14593c39ec23edd94f20bec4def0d28c87d54f84df1d912",
+    "paper/images/detection-review-tradeoff.pdf": "2300682edbe66f80bd390b76dfd9d5cdfb880e05e81ddc93cbf86e4e30c1abbc",
+    "paper/images/fault-family-transfer.pdf": "61945ca108c773b60a14f2cbd69b4b139b31933b384c29c1724e4d0265613cb1",
+    "paper/images/validation-budget-frontier.pdf": "ab8625a35688ee549b5054711a4a63109f32839b0a47060e5101b13f307931e4",
+    "paper/main.tex": "9a2e9a46f13097f13fa8c9eb066aab5cfcb757f2f46843e619ce3a415b9bf1fa",
+    "paper/manuscript.pdf": "bb6ab911c0ffcf4ba6beddae8f46e0f5732c6e4565211ce76db2d997f7df5849",
     "requirements.txt": "6abbc9fa96a0a2852039007daa7f8a44b03a744a6a6012d8ea399f090762a615",
     "results/bootstrap_draws.csv": "911cbae8646c348eaa5c1155f5f23018ad4735fd736fe0fd880a227ba1e65d0a",
     "results/corrections/git-line-endings.json": "e4a8d48a4edb21f4e4ac22719121005fabd3ab5f68476ac917ca9b0e52f9e142",
@@ -146,5 +154,12 @@
     "tests/test_contracts.py": "38fdbdd419e7bb9020b463bb67c8a7048e1030bd69a45ebb4d5f06f61c7158a4"
   },
   "raw_source_members_excluded": true,
-  "manuscripts_excluded": true
+  "unapproved_manuscripts_excluded": true,
+  "approved_independent_paper_files": [
+    "paper/images/detection-review-tradeoff.pdf",
+    "paper/images/fault-family-transfer.pdf",
+    "paper/images/validation-budget-frontier.pdf",
+    "paper/main.tex",
+    "paper/manuscript.pdf"
+  ]
 }

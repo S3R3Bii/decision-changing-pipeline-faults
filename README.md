@@ -1,5 +1,7 @@
 # Pipeline checks judged by the decisions they protect
 
+[Research manuscript: PDF and LaTeX](paper/README.md)
+
 **A feed can reconcile perfectly and still change the wrong allocation.** This controlled study asks which checks catch that failure, and how much additional review they create. Original Python and SQL reproduce a finite monitor search, every injected fault and each resulting allocation change.
 
 The selected monitor detects **97.8% of absolute allocation change** across 180 later synthetic faults, compared with 29.6% for the declared structural checks. It flags **177/180 faults**, including 58/60 cases from two mechanisms excluded from selection. The cost matters: it also flags **2/30 unmodified months (6.7%)**, exceeding the 5% validation review budget. These results support a monitored trial with a real review-capacity constraint, not an unattended production rollout.
@@ -67,4 +69,4 @@ Two packaging/export corrections are retained in [correction records](results/co
 
 Establish the actual downstream allocation rule, a capacity-based review budget and confirmed real fault mechanisms with an authorized operational owner. Then freeze a new later-period evaluation. Recheck genuine demand shifts that currently trigger review, without tuning against this completed test. A larger synthetic recall number alone would not resolve the observed review-budget failure.
 
-Private LaTeX/PDF manuscript drafts remain outside this repository. The public package contains original code, eligible aggregate data, derived figures and checks; no credentials, individual records or unpublished manuscripts.
+The public package contains original code, eligible aggregate data, derived figures, checks and the [independent research manuscript](paper/README.md). It excludes credentials, individual records and third-party source papers.
